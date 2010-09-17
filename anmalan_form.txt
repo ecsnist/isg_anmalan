@@ -1,0 +1,64 @@
+<form action="./process_anmalan.php" method=POST>
+
+Här anmäler du dig till tävlingar som sanktioneras av IS Göta.<br>
+<br>
+<br>
+
+* = Obligatorisk uppgift
+<br>
+
+<H2>Deltagar uppgifter</H2>
+<table border="1">
+<tr>
+
+<td>
+*Namn
+</td>
+<td>
+<input type="text" name=namn size="50"> <i><small>tex. Kalle Svensson</small></i>
+</td>
+</tr>
+
+<td>
+*Födelseår
+</td>
+<td>
+<input type="text" name=birth size="4"> <i><small>tex. 1967</small></i>
+</td>
+</tr>
+
+<tr>
+<td>*Tävling:</td> 
+<td>
+<select name=race>
+	<option>
+	<option> Race1 
+	<option> Race2
+</select></td>
+</tr>
+
+<tr>
+<td>*Tävlingsklass:</td>
+</td>
+<td>
+<input type="text" name=heat size="20"> <i><small>tex. M35, 800m</small></i>
+</td>
+</tr>
+
+<tr>
+<td>
+*Mailadress: 
+</td>
+<td>
+<input type="text" name=mailadress size="40"> <i><small>tex. kalle@home.se</small></i>
+</td>
+</tr>
+
+</table>
+
+<br>
+Klicka bara EN gång.<br>
+Registrering kan ta några sekunder efter att Du skickat den.<br>
+Du får en bekräftelse utskriven på skärmen att vi mottagit din tävlingregistrering.<br>
+<br>
+

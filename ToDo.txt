@@ -1,0 +1,60 @@
+Detta beskriver vad som vore bra att göra
+  
+* Dokumentera filerna och anropen, beroenden
+        
+* Gör en funktion som kollar formulärets korrekta ifyllande, nu lite för komplext.
+  Låg Prio
+
+* Skaffa lite bilder och logos - gör lite roligare
+  INGEN PRIO
+
+---
+DONE* Gör en ny mySQL lista på spaps.se för att kunna logga exekveringstid
+  Gör funktioner för att kunna läsa ut tiderna. Egen sida.
+
+DONE* Ett eget fält i anmälan för:
+    Klass (skola)?
+    DONE Mailadress
+        
+DONE *Introducera en stopwatch som en klass med funktioner
+
+DONE* Länk - tillbaka till huvudmeny
+
+DONE* Länk - anmäl ny löpare
+
+DONE* Gör en html header function
+
+DONE* Gör en common function som sätter
+    ip
+    datum
+    $red
+    $black
+    Några av dessa kan/behöver bara köras endast en gång
+
+DONE* Gör en function som hanterar säker mysql login (enligt tjocka boken i php avsnittet)  
+
+DONE* Gör en startsida där man kan komma till:
+    - Anmälan
+    - Förfrågan
+    - Visa deltagare sorterat på:
+        Förnamn
+        Efternamn
+        Ålder & Kön
+        Skola & klass
+    - Resultat
+    - Bilder
+
+DONE* I process_anmalan.php byt ut färgkodning mot defines enligt vad som görs för förnamn
+  Det bästa är att göra en egen funktion
+  tex. function outtext()
+
+DONE* Hantera förfrågan och anmälan separat - idag har jag bara gjort anmälningsdelen.
+
+DONE* Inmantningsfältet ålder skall kodas om så att det finns ett filter 
+  mellan det som visas mot vad som skrivs i databasen.
+  Dvs. Flicka född 1999 kodas om till 99f i databasen
+
+DONE* Alla fält läggs heller inte in i databasen
+
+DONE* Gör en function av show_db så att denna kan visa olika sortering
+  Nås via kalvindeltagare.php

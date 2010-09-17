@@ -1,0 +1,29 @@
+2010-06-01 19:27:05
+
+Hej,
+
+jättekul att Ni på BIF är intresserade av mitt hobby projekt.
+Detta kom till för att hantera mängden Kalvinlöpare. 
+Jag satt på nätterna och tydde PG inbetalningar, visste inte hur gamla de var eller vilket kön det var.
+Kaos.
+Bestämde mig för att göra ett anmälningssystem så att man kan göra det direkt på nätet.
+Jag har sedan gjort en databas koppling i MS Access dit jag lyfter in alla anmälningarna. Ur MS Access drar jag startlistor, resultatlistor, diplom m.m.
+Här kommer ni ju dock att använda ert chipsystem som kör Excel. Pincipen är dock detsamma. Kolla in http://www.isgotafriidrott.se/isararrangemang.htm#kalvin
+
+Den kod ni fått får ni göra vad ni vill med (utom att sälja vidare), jag skulle dock vilja kunna ta del av de förbättringar ni kommer på allteftersom. Jag är ju inte proffs på det här utan allt är gjort ur eget huvud.
+Kontakta mig gärna på niklas@spaps.se alt. 046-103770
+
+Vad ni måste göra:
+
+Kolla av de koder ni fått från one.com
+Viktiga är ftp & myPHP
+
+1. Sätt upp databasen med myPHP.
+Jag kommer att skicka med datastrukturen på Kalvin databasen. Denna + webkoden kan/behöver ni modifiera så att den passar ert behov.
+2. Vid anmälan och förfrågan skickas ett mail till en mailadress för kontroll. Jag sätter sedan en regel i mitt mailprogram som samlar ihop dessa. Ändra denna mailadress.
+3. Skapa ett dir på er sajt där ni vill lägga anmälningsfilerna. Tanka ner koden med ett FTP program (jag använder coreFTPlite som är gratis)
+Funktionerna exponerar jag till isgotafriidrott webben, medan den egna .html sidan är mer för egen administration.
+4. Finns en secure folder också som hanterar rättigheter att skriva till databasen. Jag har ett chatt transcript som jag skall leta rätt på.
+5. Kolla så att det funkar att anmäla.
+6. Lyft ut de registreringar i gjort in till Excel, jag har gjort en importerings instruktion som du kan använda. Jag har valt att i myPHP exportera till .csv fil där jag styr hur resultatet skall bli för att få bättre koll. Funkar på samma sätt till Excel som till Access.
+

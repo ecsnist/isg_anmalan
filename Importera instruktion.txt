@@ -1,0 +1,15 @@
+Instruktion för att importera poster från php_admin till MS Access/MS Excel
+
+1. I php_admin, välj "Exportera", "CSV", Fälten omges av:", "Spara till fil", Välj sedan "Kör"
+2. Döp om filnamnet från .csv till .txt
+3. Arkiv/Hämta extern data/Importera
+4. Välj textfiler
+5. Välj Avgränsat
+6. Gå till Avancerat
+7. Välj UTF-8 som teckentabell!
+8. Klicka fram Nästa/Nästa
+9. Spara ibefintlig tabell!
+10. Slutför
+
+DONE - De fel som fås beror på att NULL inte kan konverteras till en siffra i fältet Startnummer. Inget att oroas sig för.
+   
